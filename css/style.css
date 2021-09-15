@@ -1,0 +1,146 @@
+/* Globales */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: white;
+}
+
+
+.font-weight-bold {
+  font-weight: bold;
+}
+/* Fin Globales */
+
+/* Header */
+header {
+  height: 300px;
+}
+header div {
+  width: 100%;
+  height: 75%;
+  background-image: url(../img-logo/back-img.jpg);
+}
+header div img {
+  display: block;
+  margin: auto;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 20px; 
+}
+
+.nav-menu ul li a {
+  color: rgb(71, 69, 69);
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 20px;
+  text-align: center;
+
+}
+
+.nav-menu ul li a:hover {
+  background-color: rgba(204, 191, 191, 0.774);
+}
+/* Header */
+
+/* Main */
+.main-container section {
+  text-align: center;
+  margin-bottom: 40px;
+
+}
+section .titulos {
+  background-color: rgb(255, 255, 125);
+}
+
+/* Ofertas */
+#ofertas {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+
+
+/* Productos */
+h3 {
+  text-align: center;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 80%;
+  margin: auto;
+  grid-gap: 20px;
+  grid-template-rows: repeat(4,300px);
+}
+
+.contenedor .producto img {
+  width: 100%;
+  height: 100%;
+}
+/* Fin Productos */
+
+
+/* Contacto */
+#contacto {
+  background: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* Fin Contacto */
+
+
+/* Preguntas */
+.main-container div {
+  text-align: center;
+  margin-bottom: 60px;
+}
+/* Fin Preguntas */
+
+/* Talle */
+section #box-wrapper {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+section #box-wrapper .box {
+  width: 33%;
+  display: inline-block;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border: 2px solid lightgray;
+}
+section #box-wrapper .box div {
+  margin: 10px;
+}
+
+.main-container .titulos {
+  text-align: center;
+}
+
+#size p {
+  padding: 10px;
+}
+/* Fin Talle */
+
+/* Footer */
+footer {
+  background: #000;
+  color: #fff;
+  padding: 3px 0px;
+  text-align: center;
+}
+/* Fin Main */
