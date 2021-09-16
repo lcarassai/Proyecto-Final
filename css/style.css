@@ -88,7 +88,7 @@ h3 {
 
 .contenedor .producto img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 /* Fin Productos */
 
