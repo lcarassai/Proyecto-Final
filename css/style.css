@@ -94,6 +94,10 @@ h3 {
 
 
 /* Contacto */
+.main-container form {
+  width: 80%;
+  margin: 10px;
+}
 #contacto {
   background: white;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -103,12 +107,18 @@ h3 {
 
 /* Preguntas */
 .main-container div {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
   margin-bottom: 60px;
 }
 /* Fin Preguntas */
 
 /* Talle */
+.main-container section p {
+  width: 80%;
+  margin: 0 auto;
+}
 section #box-wrapper {
   margin-top: 25px;
   margin-bottom: 25px;
