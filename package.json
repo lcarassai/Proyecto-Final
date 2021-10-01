@@ -1,0 +1,15 @@
+{
+    "name": "foxie",
+    "version": "1.0.0",
+    "description": "foxie web",
+    "scripts": {
+        "build-css": "node-sass --include-path scss scss/style.scss css/estilo.css",
+        "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "node-sass": "^6.0.1",
+        "nodemon": "^2.0.13"
+    }
+}
