@@ -182,22 +182,22 @@ button{
         span{
             color: #0e0e0e;  
         }
-        textarea{
-            background-color: #fbfbfb; 
-            width: 405px; 
-            height: 150px; 
-            border-radius: 5px;  
-            border-style: solid; 
-            border-width: 1px; 
-            border-color: #cedbd2; 
-            margin-top: 10px;  
-            padding-left: 10px;
-            margin-bottom: 20px; 
-            padding-top: 15px; 
-        }
+        
     }
 }
-
+textarea{
+    background-color: #fbfbfb; 
+    width: 420px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #cedbd2; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+}
 ::-webkit-input-placeholder {
  color: #a8a8a8;
 }
@@ -207,19 +207,17 @@ button{
  color: #a8a8a8;
 }
 
-
 .formulario input:focus{
 	outline:0;
 	border: 1px solid hsl(61, 80%, 52%);
 }
-
 
 .formulario textarea:focus{
 	outline:0;
 	border: 1px solid hsl(61, 80%, 52%);
 }
 /* Fin Contacto */
-  
+
   
 section {
     #box-wrapper {
