@@ -33,42 +33,62 @@
     </header>
     <!--Fin header-->
 
+
+    <!-- formulario de contacto en html y css -->
     <div class="main-container">
         <section>
             <h2 class="titulos">CONTACTO</h2>
         </section>
-        <form action="enviar.php" method="GET">
+        <div>
+            <h3>¡Comunicate con nosotros!</h3>
+        </div>
 
-            <fieldset>
-                <legend>Formulario de contacto</legend>
+        <div class="contact_form">
 
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre">
+            <div class="formulario">
 
-                <br><br>
+                <form action="submeter-formulario.php" method="post">
 
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
 
-                <br> <br>
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
 
-                <textarea name="textarea" rows="10" cols="50">Escriba aquí su consulta </textarea>
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
 
-                <br> <br>
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
 
-                <input type="checkbox" name="acepta" id=""> Acepta los terminos
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        <p>Enviar</p>
+                    </button>
 
-                <br> <br>
 
-                <input type="submit" value="Enviar ahora">
-                <input type="reset" value="Limpiar">
-            </fieldset>
 
-        </form>
-    </div>
+                </form>
+            </div>
+        </div>
 
-    <footer>
-        <p>&copy; Copyright Tienda Foxie 2021</p>
-    </footer>
+
+        <footer>
+            <p>&copy; Copyright Tienda Foxie 2021</p>
+        </footer>
 
 </body>
+
+</html>

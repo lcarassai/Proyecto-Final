@@ -128,9 +128,95 @@ h3 {
 /* Fin Productos */
   
 /* Contacto */
-#contacto {
-    background: white;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+.contact_form{	
+	width: 460px; 
+    height: auto;
+    margin: 80px auto;
+	border-radius: 10px;  
+	padding-top: 30px;
+	padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 420px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #cedbd2; 
+	margin-top: 10px;  
+	padding-left: 10px;
+    margin-bottom: 20px; 
+}
+
+
+
+label{
+  display: block; 
+	float: center; 	
+}
+
+
+button{
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: rgb(255, 255, 125); 
+	border-color: rgb(255, 255, 125); 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+    cursor: pointer;
+
+    p {
+        color:black; 
+        font-size: 20px; 
+
+        span{
+            color: #0e0e0e;  
+        }
+        textarea{
+            background-color: #fbfbfb; 
+            width: 405px; 
+            height: 150px; 
+            border-radius: 5px;  
+            border-style: solid; 
+            border-width: 1px; 
+            border-color: #cedbd2; 
+            margin-top: 10px;  
+            padding-left: 10px;
+            margin-bottom: 20px; 
+            padding-top: 15px; 
+        }
+    }
+}
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+	outline:0;
+	border: 1px solid hsl(61, 80%, 52%);
+}
+
+
+.formulario textarea:focus{
+	outline:0;
+	border: 1px solid hsl(61, 80%, 52%);
 }
 /* Fin Contacto */
   
