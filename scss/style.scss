@@ -2,8 +2,6 @@
 $mainColor: rgb(255, 255, 125);
 $fullWidth: 99%;
 
-/* 1145 */
-
 * {
     padding: 0;
     margin: 0;
@@ -76,6 +74,7 @@ header {
             background-color: $mainColor;
         }
 
+
         /* Talle */
         p {
             width: 80%;
@@ -89,6 +88,7 @@ header {
         margin: 0 auto;
         text-align: center;
         margin-bottom: 60px;
+
     }
     /* Fin Preguntas */
 
@@ -116,15 +116,18 @@ h3 {
     width: 80%;
     margin: auto;
     grid-gap: 20px;
-    grid-template-rows: repeat(4,300px);
-
-    .producto {
-        img {
-            width: 100%;
-            height: auto;
-        }
-    }
-}
+    grid-template-rows: repeat(4,370px);
+  }
+  
+  .contenedor .producto img {
+    width: 350px;
+    
+  }
+  
+  .contenedor .producto h2 {
+    text-align: center;
+  
+  }
 /* Fin Productos */
   
 /* Contacto */

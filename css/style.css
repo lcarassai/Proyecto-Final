@@ -1,5 +1,4 @@
 /* Globales */
-/* 1145 */
 * {
   padding: 0;
   margin: 0;
@@ -78,10 +77,13 @@ h3 {
   width: 80%;
   margin: auto;
   grid-gap: 20px;
-  grid-template-rows: repeat(4, 300px); }
-  .contenedor .producto img {
-    width: 100%;
-    height: auto; }
+  grid-template-rows: repeat(4, 370px); }
+
+.contenedor .producto img {
+  width: 350px; }
+
+.contenedor .producto h2 {
+  text-align: center; }
 
 /* Fin Productos */
 /* Contacto */
